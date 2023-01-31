@@ -13,7 +13,7 @@
 
 - 📫 How to reach me **gdsc0301@gmail.com**
 
-- ⚡ Fun fact **I'm almost Graduated in Finance Management ¯\\_(ツ)_/¯**
+- ⚡ Fun fact **I'm almost Graduated in Finance Management ¯\\\_(ツ)_/¯**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
