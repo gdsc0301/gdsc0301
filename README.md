@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Guilherme Carvalho ~it's weird to say, I know</h1>
+<h1 align="center">Hi 👋 I'm Guilherme ~it's weird to say, I know</h1>
 <h3 align="center">A passionate Brazilian Software Developer</h3>
 
 - 🔭 I’m currently working on [UniColors](https://github.com/gdsc0301/unicolors)
