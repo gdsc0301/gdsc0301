@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Guilherme Carvalho ~it's weird, I know</h1>
-<h3 align="center">A passionate PHP / FrontEnd developer from Brazil</h3>
+<h1 align="center">Hi 👋, I'm Guilherme Carvalho ~it's weird to say, I know</h1>
+<h3 align="center">A passionate Brazilian Software Developer</h3>
 
 - 🔭 I’m currently working on [UniColors](https://github.com/gdsc0301/unicolors)
 
@@ -9,7 +9,7 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/gdsc0301](https://github.com/gdsc0301)
 
-- 💬 Ask me about **PHP, WordPress, React, Vanilla JavaScript and Blender.**
+- 💬 Ask me about **PHP, WordPress, React, Vanilla JavaScript and Blender (yes, Blender, art is cool also).**
 
 - 📫 How to reach me **gdsc0301@gmail.com**
 
