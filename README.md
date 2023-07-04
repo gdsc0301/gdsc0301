@@ -1,15 +1,15 @@
 <h1 align="center">Hi 👋 I'm Guilherme ~it's weird to say, I know</h1>
 <h3 align="center">A passionate Brazilian Software Developer</h3>
 
-- 🔭 I’m currently working on [Ranking & Presence Management](https://github.com/gdsc0301/ranking-presence-management)
+- 🔭 I’m currently working on [my Online Multiplayer Game](https://github.com/gdsc0301/best-multiplayer-game-possible)
 
-- 🌱 I’m currently learning **Laravel Mix, Babel, Gulp, Webpack, Browserify, etc.**
+- 🌱 I’m currently learning **C++, Node JS, Express JS, Online Multiplayer Game Development.**
 
-- 🤝 I’m looking for some ideas to improve [UniColors](https://github.com/gdsc0301/unicolors)
+- 🤝 I’m looking for some ideas to improve [my Online Multiplayer Game](https://github.com/gdsc0301/best-multiplayer-game-possible)
 
 - 👨‍💻 All of my projects are available at [https://github.com/gdsc0301](https://github.com/gdsc0301)
 
-- 💬 Ask me about **PHP, WordPress, React, Vanilla JavaScript and Blender (yes, Blender, art is cool also).**
+- 💬 Ask me about **PHP, WordPress, NodeJS, React, Vanilla JavaScript and Blender (yes, Blender, art is cool also).**
 
 - 📫 How to reach me **gdsc0301@gmail.com**
 
