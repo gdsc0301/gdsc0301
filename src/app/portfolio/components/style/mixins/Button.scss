@@ -1,0 +1,47 @@
+@mixin button() {
+  @apply
+    relative
+    block py-2 px-3
+    text-lg
+    overflow-hidden
+    rounded-lg
+    duration-200;
+
+  &::before {
+    @apply
+      content-['']
+      absolute top-0 right-full
+      w-[200%]
+      h-full
+      opacity-0
+      duration-200
+      bg-gradient-to-r from-slate-500/0 via-slate-500 to-slate-500/0;
+
+    translate: 0;
+    z-index: -1;
+
+    @keyframes ltr {
+      0% {
+        translate: 0;
+      }
+
+      100% {
+        translate: 200%;
+      }
+    }
+
+    animation-name: ltr;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-play-state: running;
+  }
+
+  &:hover {
+    @apply bg-slate-400/20;
+
+    &::before {
+      @apply opacity-50;
+    }
+  }
+}

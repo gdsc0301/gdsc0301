@@ -1,0 +1,70 @@
+@import 'mixins/Button';
+
+header {
+  @apply
+    fixed top-0 z-20
+    flex justify-between items-center
+    w-full h-20 px-24 py-4
+    backdrop-blur-lg
+    backdrop-brightness-110;
+
+  .name {
+    @apply
+      relative block
+      text-slate-200 text-2xl
+      font-semibold;
+
+    &::before {
+      content: '';
+      @apply
+        absolute bottom-0 left-0
+        w-full h-[2px]
+        opacity-0
+        duration-300
+        bg-gradient-to-r from-slate-500/0 via-slate-500 to-slate-500/0;
+
+    }
+      
+    &:hover {
+      &::before {
+        @apply opacity-100;
+      }
+    }
+  }
+
+  .menu {
+    @apply flex items-center gap-1;
+
+    .nav-link {
+      @include button();
+      @apply flex items-center gap-2;
+
+      > i {
+        @apply
+          will-change-[rotate]
+          ease-in-out
+          duration-700;
+      }
+
+      &:hover {
+        > i {
+          rotate: y 180deg;
+        }
+        .dropLeft {
+          @apply max-w-md opacity-100;
+        }
+      }
+
+      .dropLeft {
+        @apply
+          flex items-center gap-2
+          max-w-0
+          opacity-0
+          overflow-hidden
+          ease-in-out
+          will-change-[max-width\,opacity]
+          duration-700;
+      }
+    }
+  }
+}

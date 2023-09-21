@@ -1,0 +1,35 @@
+.aboutSection {
+  @apply grid grid-cols-2 gap-24 items-end;
+
+  .content {
+    .long {
+      @apply leading-[1.75];
+
+      a {
+        @apply text-slate-400 underline;
+      }
+
+      p {
+        @apply block mb-4;
+      }
+    }
+  }
+
+  .pictures {
+    @apply
+      w-full lg:max-h-[500px]
+      select-none;
+
+    > .swiper {
+      @apply overflow-visible;
+
+      .item {
+        @apply w-full aspect-[4/3];
+  
+        img {
+          @apply object-cover;
+        }
+      }
+    }
+  }
+}
