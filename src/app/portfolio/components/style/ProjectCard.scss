@@ -5,7 +5,8 @@
     w-full aspect-[3/4]
     rounded-2xl
     border border-white/10
-    overflow-hidden;
+    overflow-hidden
+    z-[5];
 
   iframe {
     @apply

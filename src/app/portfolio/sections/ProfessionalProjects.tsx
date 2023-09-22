@@ -3,21 +3,41 @@ import type Project from "../interfaces/Project"
 
 const privateProjects: Project[] = [
   {
-    title: 'BMGP - Best Multiplayer Game Possible',
-    description: 'A multiplayer game where you can play with your friends right from the GitHub page.',
-    link: 'https://github.com/gdsc0301/best-multiplayer-game-possible',
-    video: 'https://youtube.com/embed/KWmbrvlznhs'
+    title: 'Fetner 266w96',
+    description: 'A website for a new Building project of a real estate company in the United States, New York.',
+    link: 'https://266w96.com/',
+    video: 'https://www.youtube.com/embed/nFHwA6mmFMg'
   },
   {
-    title: 'Analogic Character Display',
-    description: 'A simulation of analogic character display commonly seen at train stations, but using React and some CSS magic.',
-    link: 'https://github.com/gdsc0301/analogic-character-display',
-    video: 'https://www.youtube.com/embed/gf2MrlcLv_c'
+    title: 'Portal de Teleconferências - MZ Group',
+    description: 'A webcast portal made out of React.JS and WordPress, with thousands of data and very complex filters.',
+    link: 'https://portal.mzgroup.com/',
+    video: 'https://www.youtube.com/embed/c_upWJqu8CE'
   }, {
-    title: 'RGB Snake',
-    description: 'A snake game made in Vanilla JS, but the snake is a RGB rainbow.',
-    link: 'https://github.com/gdsc0301/rgb-snake',
-    video: 'https://www.youtube.com/embed/KWmbrvlznhs'
+    title: 'MRS RI',
+    description: 'A IR website for one of the biggest companies in Brazil called MRS, they work with the Rails transportation field.',
+    link: 'https://ri.mrs.com.br/',
+    video: 'https://www.youtube.com/embed/65lkZvAokgw'
+  }, {
+    title: 'Priner RI',
+    description: 'The IR website of one of the biggest companies in Brazil in the Industrial Services field.',
+    link: 'https://ri.raizen.com.br/',
+    video: 'https://www.youtube.com/embed/ysd1gWLs9LI'
+  }, {
+    title: 'Raízen RI',
+    description: 'The IR website of one of the biggest companies in Brazil in the Industrial Services field.',
+    link: 'https://ri.priner.com.br/',
+    video: 'https://www.youtube.com/embed/RE1KsvQBq9M'
+  }, {
+    title: 'CBA RI',
+    description: 'The IR website of one of the biggest companies in Brazil in the Aluminum field.',
+    link: 'https://ri.cba.com.br/',
+    video: 'https://www.youtube.com/embed/MWKZ56pq4g8'
+  }, {
+    title: 'Veris Residential',
+    description: 'A website for a new Building project of a real estate company in the United States, New York.',
+    link: 'https://verisresidential.com/',
+    video: 'https://www.youtube.com/embed/v__iQjzRsHA'
   }
 ];
 
