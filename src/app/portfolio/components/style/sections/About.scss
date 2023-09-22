@@ -1,7 +1,14 @@
 .aboutSection {
-  @apply grid grid-cols-2 gap-24 items-end;
+  @apply
+    relative
+    w-full max-w-full
+    max-lg:pb-[300px]
+    grid lg:grid-cols-2
+    gap-24 items-end;
 
   .content {
+    @apply relative w-full;
+
     .long {
       @apply leading-[1.75];
 
@@ -17,17 +24,21 @@
 
   .pictures {
     @apply
-      w-full lg:max-h-[500px]
+      absolute bottom-6 left-1/2 -translate-x-1/2
+      lg:relative lg:bottom-auto lg:left-auto lg:translate-x-0
+
+      w-[360px] lg:w-full lg:mx-auto
+      max-h-[500px]
       select-none;
 
     > .swiper {
-      @apply overflow-visible;
+      @apply lg:overflow-visible;
 
       .item {
-        @apply w-full aspect-[4/3];
+        @apply aspect-[4/3];
   
         img {
-          @apply object-cover;
+          @apply max-w-full object-cover;
         }
       }
     }

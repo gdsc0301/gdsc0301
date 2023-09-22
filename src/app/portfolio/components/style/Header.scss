@@ -4,7 +4,8 @@ header {
   @apply
     fixed top-0 z-20
     flex justify-between items-center
-    w-full h-20 px-24 py-4
+    w-full h-20
+    px-4 md:px-8 py-4
     backdrop-blur-lg
     backdrop-brightness-110;
 
@@ -15,55 +16,139 @@ header {
       font-semibold;
 
     &::before {
-      content: '';
       @apply
+        md:content-['']
         absolute bottom-0 left-0
         w-full h-[2px]
         opacity-0
         duration-300
         bg-gradient-to-r from-slate-500/0 via-slate-500 to-slate-500/0;
-
     }
       
     &:hover {
       &::before {
-        @apply opacity-100;
+        @apply md:opacity-100;
+      }
+    }
+  }
+  
+  .menuToggle {
+    @apply
+      relative md:hidden
+      w-12 h-12
+      rounded-full
+      outline-none
+      
+      duration-700
+      hover:bg-slate-800
+      z-10;
+
+    -webkit-tap-highlight-color: transparent;
+
+    &[data-active=true] {
+      @apply bg-slate-700 rotate-180;
+
+      .line {
+        @apply w-6;
+
+        &:nth-child(1) {
+          @apply -rotate-[24deg];
+          top: calc(50% - 1px - 5px);
+        }
+
+        &:nth-child(2) {
+          @apply opacity-0;
+        }
+
+        &:nth-child(3) {
+          @apply rotate-[24deg];
+          top: calc(50% - 1px + 5px);
+        }
+      }
+    }
+
+    .line {
+      @apply
+        absolute left-1/2
+        w-8 h-[2px]
+        bg-white
+        -translate-x-1/2
+        transform-gpu
+        duration-700;
+
+      &:nth-child(1) {
+        top: calc(50% - 1px - 8px);
+      }
+      &:nth-child(2) {
+        top: calc(50% - 1px);
+      }
+      &:nth-child(3) {
+        top: calc(50% - 1px + 8px);
       }
     }
   }
 
   .menu {
-    @apply flex items-center gap-1;
+    @apply
+      max-md:absolute max-md:top-0 max-md:right-0
+      max-md:w-full max-md:h-screen
+
+      max-md:translate-x-full
+      max-md:bg-gradient-to-br from-slate-400/90 to-slate-800/90
+      max-md:duration-700
+      max-md:backdrop-blur-lg max-md:backdrop-brightness-75
+
+      flex items-center gap-1
+      max-md:flex-col max-md:justify-center
+      transform-gpu
+      will-change-transform;
+
+    &[data-open=true] {
+      @apply max-md:translate-x-0;
+    }
 
     .nav-link {
       @include button();
-      @apply flex items-center gap-2;
+      @apply
+        flex items-center gap-2
+
+        max-md:flex-col
+        max-md:text-4xl;
 
       > i {
         @apply
+          max-md:absolute max-md:top-3 max-md:right-3
+          max-md:-rotate-90
           will-change-[rotate]
           ease-in-out
           duration-700;
       }
 
-      &:hover {
+      &:hover, &:active {
         > i {
           rotate: y 180deg;
+
+          @media (max-width: theme('screens.sm')) {
+            rotate: x 180deg;
+          }
         }
         .dropLeft {
-          @apply max-w-md opacity-100;
+          @apply max-h-96 md:max-w-md opacity-100;
         }
       }
 
       .dropLeft {
         @apply
           flex items-center gap-2
-          max-w-0
+          max-md:flex-col
+
+          max-h-0 md:max-w-0
           opacity-0
           overflow-hidden
           ease-in-out
           will-change-[max-width\,opacity]
           duration-700;
+
       }
     }
   }

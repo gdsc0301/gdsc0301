@@ -7,6 +7,8 @@
     rounded-lg
     duration-200;
 
+  -webkit-tap-highlight-color: transparent;
+
   &::before {
     @apply
       content-['']

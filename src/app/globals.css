@@ -26,6 +26,10 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+* {
+  box-sizing: border-box;
+  word-break: break-all;
+}
 
 @keyframes fade-in {
   0% {

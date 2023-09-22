@@ -1,18 +1,23 @@
 main {
   @apply
-    max-w-7xl mx-auto mt-12
+    relative
+    w-screen md:w-full
+    overflow-hidden
+    max-w-[100vw] md:max-w-7xl mx-auto 
+    mt-12 px-4
     grid gap-12;
 
   section {
     @apply
-      p-16
+      p-4 md:p-16
       border border-white/5
       rounded-3xl
       bg-slate-800/25;
     
     h2 {
       @apply
-        text-slate-400 text-[92px] text-center
+        mb-2
+        text-slate-400 text-7xl md:text-[92px] text-center
         font-semibold;
     }
 
@@ -22,13 +27,14 @@ main {
       &.live-projects {
         h2 {
           @apply
-            relative block mx-auto mb-4
+            relative block mx-auto
+            max-md:mt-4 mb-4
             w-fit
             z-10;
 
           span {
             @apply
-              absolute top-0 -left-2
+              absolute -top-6 -left-2
               px-4 py-1
               text-xl text-white
               font-bold
@@ -65,15 +71,18 @@ main {
       &.professional-projects {
         h2 {
           @apply 
-            relative block mx-auto mb-4
+            relative block mx-auto
+            mb-10
             w-fit
             z-10;
 
           span {
             @apply
-              absolute bottom-1 -left-2
+              absolute
+              -bottom-6 md:-bottom-5
+              -left-3 md:-left-2
               px-4 py-1
-              text-xl text-white
+              text-lg md:text-xl text-white
               font-light
               
               z-[-1];

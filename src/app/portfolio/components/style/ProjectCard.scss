@@ -26,7 +26,8 @@
       opacity-0
       select-none
       rounded-xl
-      bg-gradient-to-t from-slate-700 to-slate-500/[.01];
+      bg-gradient-to-t from-slate-700 to-slate-500/[.01]
+      backdrop-blur-lg;
 
     h3 {
       @apply
