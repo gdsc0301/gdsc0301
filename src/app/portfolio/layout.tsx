@@ -10,7 +10,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <article className="overflow-hidden pt-24">
+    <article className="overflow-hidden pt-16">
       <Header />
       {children}
     </article>

@@ -12,8 +12,9 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="flex min-h-[100dvh] items-center p-24">
+    <main>
       <h1 className='name'>Guilherme Carvalho</h1>
+      <h2 className='font-light text-2xl md:text-4xl'>Full-stack Developer</h2>
     </main>
   )
 }
