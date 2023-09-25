@@ -18,6 +18,11 @@ const liveProjetcs: Project[] = [
     description: 'A snake game made in Vanilla JS, but the snake is a RGB rainbow.',
     link: 'https://github.com/gdsc0301/rgb-snake',
     video: 'https://www.youtube.com/embed/KWmbrvlznhs'
+  }, {
+    title: 'TestWizard',
+    description: 'An application that makes easy to create custom tests and print them.',
+    link: 'https://github.com/gdsc0301/test-wizard',
+    video: 'https://www.youtube.com/embed/rTm-ONZOzu4'
   }
 ];
 
