@@ -5,7 +5,7 @@ main {
     items-center justify-center
     h-[100dvh];
 
-  h1,h2 {
+  h1, h2 {
     @apply
       text-4xl lg:text-6xl 
       text-center font-bold opacity-0;

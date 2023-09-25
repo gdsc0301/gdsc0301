@@ -63,7 +63,7 @@ const About = () => {
           rewind={true}
           modules={[Autoplay, EffectCards]}>
           {pictures.map((picture, index) => (
-            <SwiperSlide>
+            <SwiperSlide key={`picture-${index}`}>
               <div className="item">
                 <Image src={picture} alt={`Picture ${index}`} key={`picture${index}`} fill />
               </div>
