@@ -1,3 +1,4 @@
+<a href="https://app.daily.dev/guilhermecarvalho"><img src="https://api.daily.dev/devcards/v2/hJK2Ipbc7UawNEQtmyC1Z.png?r=fzj&type=wide" width="652" alt="Guilherme Carvalho's Dev Card"/></a>
 <h1 align="center">Hi 👋 I'm Guilherme ~it's weird to say, I know</h1>
 <h2 align="center"><a href="https://guilherme-carvalho-portfolio.vercel.app" target="_blank">Access my Portfolio Website clicking here.</a></h2>
 <br/>
