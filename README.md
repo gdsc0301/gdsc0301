@@ -3,13 +3,9 @@
 <h2 align="center"><a href="https://guilherme-carvalho-portfolio.vercel.app" target="_blank">Access my Portfolio Website clicking here.</a></h2>
 <br/>
 
-- 🔭 I’m currently working on [my Online Multiplayer Game](https://github.com/gdsc0301/best-multiplayer-game-possible)
+- 🌱 I’m currently learning **Swift, iOS Development, Business.**
 
-- 🌱 I’m currently learning **C++, Node JS, Express JS, Online Multiplayer Game Development.**
-
-- 🤝 I’m looking for some ideas to improve [my Online Multiplayer Game](https://github.com/gdsc0301/best-multiplayer-game-possible)
-
-- 👨‍💻 All of my projects are available at [https://github.com/gdsc0301](https://github.com/gdsc0301)
+- 👨‍💻 All of my projects are available at [portfolio.guibr.com](https://portfolio.guibr.com)
 
 - 💬 Ask me about **PHP, WordPress, NodeJS, React, Vanilla JavaScript and Blender (yes, Blender, art is cool also).**
 
