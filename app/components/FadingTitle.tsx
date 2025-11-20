@@ -1,6 +1,5 @@
 'use client'
 import { useEffect, useState } from 'react';
-import './style/FadingTitle.css';
 
 export default function FadingTitle() {
   const [hidden, setHidden] = useState(false);
@@ -33,7 +32,7 @@ export default function FadingTitle() {
         text-white
       '
     >
-      <h1 className='name'>Guilherme Carvalho</h1>
+      <h1 className='text-4xl'>Guilherme Carvalho</h1>
       <h2 className='font-light text-2xl md:text-4xl'>
         Full-Stack Developer
       </h2>

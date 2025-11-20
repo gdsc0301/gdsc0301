@@ -22,8 +22,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className='scroll-smooth'>
       <body className={montserrat.className + ' antialiased'}>
-        <Header />
-        {children}
+        <div className='max-w-dvw overflow-x-hidden'>
+          <Header />
+          {children}
+        </div>
       </body>
       <Analytics />
     </html>

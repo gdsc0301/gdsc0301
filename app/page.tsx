@@ -10,7 +10,6 @@ export default function Home() {
   return (
     <main className='
       relative
-      overflow-hidden
       mx-auto 
       pt-24 px-4
       grid gap-12
@@ -20,7 +19,7 @@ export default function Home() {
       <ProfessionalProjects />
       <LiveProjects />
       <Contact />
-      {/* <FadingTitle /> */}
+      <FadingTitle />
     </main>
   )
 }

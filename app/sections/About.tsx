@@ -33,7 +33,7 @@ const About = () => {
     >
       <div className="z-10">
         <h2 className="text-left py-8 text-4xl">Hello <span className='inline-block animate-bounce'>✌🏼</span></h2>
-        <div className="[&_p]:mb-4 mt-4 text-sm text-slate-300 [&_a]:text-white [&_a]:underline [&_a]:hover:text-sky-300 [&_a]:duration-300">
+        <div className="[&_p]:mb-4 mt-4 text-sm text-slate-300 [&_a]:text-white [&_a]:underline [&_a]:hover:text-sky-300 [&_a]:duration-300 text-shadow-black">
           <p>
             My name is <a href="https://github.com/gdsc0301" target="_blank" rel="noopener noreferrer">Guilherme Carvalho</a>,
             and this is my Portfolio 🚀
