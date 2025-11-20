@@ -12,16 +12,12 @@ import { Autoplay, EffectCards } from 'swiper/modules';
 import Icon from '../components/Icon';
 
 const pictures = [
-  'https://i.imgur.com/5IHXSdG.jpg',
-  'https://i.imgur.com/uPUaUQQ.jpg',
-  'https://i.imgur.com/VxhtOIo.jpg',
-  'https://i.imgur.com/4DK626n.jpg',
-  'https://i.imgur.com/N1BxUK6.jpg',
-  'https://i.imgur.com/mtbsVgX.jpg',
-  'https://i.imgur.com/odJHeBz.jpg',
-  'https://i.imgur.com/BdFHZjN.jpg',
-  'https://i.imgur.com/9kM7i9k.jpg',
-  'https://i.imgur.com/QutMiGv.jpg'
+  'https://s3.guibr.com/portfolio/5IHXSdG.jpg',
+  'https://s3.guibr.com/portfolio/N1BxUK6.jpg',
+  'https://s3.guibr.com/portfolio/mtbsVgX.jpg',
+  'https://s3.guibr.com/portfolio/BdFHZjN.jpg',
+  'https://s3.guibr.com/portfolio/9kM7i9k.jpg',
+  'https://s3.guibr.com/portfolio/QutMiGv.jpg'
 ];
 
 const About = () => {
@@ -35,15 +31,15 @@ const About = () => {
             and this is my Portfolio 🚀
           </p>
           <p>
-            I'm a <strong>Full Stack Developer</strong> with a passion for <strong>Frontend</strong>
+            I'm a <strong>Full Stack Developer</strong> with 7 years of experience, and a passion for <strong>Frontend</strong>
             , <strong><Icon type='solid' name='cube' className='mr-1' />3D graphics</strong> and <strong>
               <Icon type='solid' name='gamepad' className='mr-1' />Game Development</strong>.
           </p>
           <p>
-            My primary skills are <strong><Icon name='php'/>PHP</strong>, <Icon name='wordpress'/><strong>WordPress</strong> and <Icon name='react'/><strong>React.js</strong>.
+            My primary skills are <strong><Icon name='docker'/> Docker</strong>, <strong><Icon name='php'/> PHP</strong>, <strong><Icon name='wordpress'/> WordPress</strong> and <strong><Icon name='react'/> React.js + Next/Vite</strong>.
           </p>
           <p>
-            But I also have experience with <strong>Vanilla <Icon name='js-square' className='mr-1'/>JavaScript</strong>, <strong>TypeScript</strong>, <strong>Next.js and Vite.js</strong>, <strong>Express.js</strong>, <strong>MySQL</strong>, <strong>Blender</strong>, <strong><Icon name='unity' className='mr-1'/>Unity</strong>, and everythign in between.
+            But I also have a lot of experience with <strong>Vanilla JavaScript,  GitHub CI/CD, Self-Hosting, Go, Node.js, TailwindCSS, SASS, WebPack</strong>, and even <strong>iOS/Android App Development</strong>.
           </p>
         </div>
       </div>
