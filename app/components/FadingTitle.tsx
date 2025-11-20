@@ -1,6 +1,6 @@
 'use client'
 import { useEffect, useState } from 'react';
-import './style/FadingTitle.scss';
+import './style/FadingTitle.css';
 
 export default function FadingTitle() {
   const [hidden, setHidden] = useState(false);
@@ -11,7 +11,7 @@ export default function FadingTitle() {
 
   return (
     <div
-      data-hide={hidden}
+      data-hidden={hidden}
       className='
         fading-title
         fixed
@@ -29,7 +29,7 @@ export default function FadingTitle() {
         justify-center
         gap-4
         transition-opacity
-        duration-1000
+        duration-3000
         text-white
       '
     >

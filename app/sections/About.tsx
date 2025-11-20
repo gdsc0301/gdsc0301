@@ -1,5 +1,4 @@
 'use client'
-import '../components/style/sections/About.scss';
 import Image from 'next/image';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -7,21 +6,34 @@ import { Autoplay, EffectCards } from 'swiper/modules';
 
 import Icon from '../components/Icon';
 
+import 'swiper/css';
+import 'swiper/css/autoplay';
+import 'swiper/css/effect-cards';
+
 const pictures = [
   'https://s3.guibr.com/portfolio/5IHXSdG.jpg',
   'https://s3.guibr.com/portfolio/N1BxUK6.jpg',
   'https://s3.guibr.com/portfolio/mtbsVgX.jpg',
-  'https://s3.guibr.com/portfolio/BdFHZjN.jpg',
   'https://s3.guibr.com/portfolio/9kM7i9k.jpg',
   'https://s3.guibr.com/portfolio/QutMiGv.jpg'
 ];
 
 const About = () => {
   return (
-    <section className='aboutSection' id='about'>
-      <div className="content">
-        <h2 className="text-left">Hello <span className='inline-block animate-bounce'>✌🏼</span></h2>
-        <div className="long">
+    <section
+      className='
+        p-4 md:p-16
+        grid md:grid-cols-2 gap-12
+        items-center
+        border border-white/5
+        rounded-3xl
+        bg-slate-800/25
+      '
+      id='about'
+    >
+      <div className="z-10">
+        <h2 className="text-left py-8 text-4xl">Hello <span className='inline-block animate-bounce'>✌🏼</span></h2>
+        <div className="[&_p]:mb-4 mt-4 text-sm text-slate-300 [&_a]:text-white [&_a]:underline [&_a]:hover:text-sky-300 [&_a]:duration-300">
           <p>
             My name is <a href="https://github.com/gdsc0301" target="_blank" rel="noopener noreferrer">Guilherme Carvalho</a>,
             and this is my Portfolio 🚀
@@ -39,9 +51,10 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="pictures">
+
+      <div className='md:pl-10'>
         <Swiper
-          effect={'cards'}
+          effect="cards"
           grabCursor={true}
           slidesPerView={1}
           autoplay={{ delay: 2000, pauseOnMouseEnter: true, disableOnInteraction: true }}
@@ -53,12 +66,21 @@ const About = () => {
           }}
           speed={1000}
           rewind={true}
-          modules={[Autoplay, EffectCards]}>
+          modules={[Autoplay, EffectCards]}
+          className='w-[350px] h-auto'
+        >
           {pictures.map((picture, index) => (
             <SwiperSlide key={`picture-${index}`}>
-              <div className="item">
-                <Image src={picture} alt={`Picture ${index}`} key={`picture${index}`} fill />
-              </div>
+              <img
+                loading='lazy'
+                decoding='async'
+                fetchPriority='low'
+                width={345}
+                height={600}
+                src={picture}
+                alt={`Picture ${index}`} key={`picture${index}`}
+                className='w-[345px] h-[600px] rounded-3xl border border-white/10 shadow-lg object-cover'
+              />
             </SwiperSlide>
           ))}
         </Swiper>

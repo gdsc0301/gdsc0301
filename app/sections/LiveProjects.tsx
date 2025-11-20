@@ -19,25 +19,36 @@ const liveProjetcs: Project[] = [
     link: 'https://github.com/gdsc0301/rgb-snake',
     video: 'https://www.youtube.com/embed/KWmbrvlznhs'
   }, {
-    title: 'TestWizard',
-    description: 'An application that makes easy to create custom tests and print them.',
+    title: 'Provinha',
+    description: 'An application that makes easy to create custom print-ready tests.',
     link: 'https://github.com/gdsc0301/test-wizard',
-    video: 'https://www.youtube.com/embed/rTm-ONZOzu4'
+    video: 'https://youtube.com/embed/BCfkQvv8VMU'
   }
 ];
 
 export default function LiveProjects() {
   return (
-    <section className='live-projects' id='live-projects'>
-      <div className="bg"></div>
+    <section
+      className='
+        p-4 md:p-16
+        border border-white/5
+        rounded-3xl
+        bg-slate-800/25
+      '
+      id='live-projects'
+    >
+      <div className="gamepad-bg"></div>
       <div className="heading max-w-4xl mx-auto mb-10">
-        <h2><span>Live</span> Projects</h2>
+        <h2>
+          <span>Live</span>
+          Projects
+        </h2>
         <p className='text-lg'>
-          Here are some projects that you can test it right now from the Github Page,
+          Here are some personal projects that you can test it right now from the Github Page,
           &nbsp;including an online multiplayer game that you can play with your friends.
         </p>
       </div>
-      <div className="projects">
+      <div className="live-projects grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {liveProjetcs.map((project, index) => (
           <ProjectCard key={`liveProject${index}`} {...project} parentSelector='.live-projects' />
         ))}

@@ -1,3 +1,4 @@
+@import 'tailwindcss';
 @import 'mixins/Button';
 
 header {
@@ -22,7 +23,7 @@ header {
         w-full h-[2px]
         opacity-0
         duration-300
-        bg-gradient-to-r from-slate-500/0 via-slate-500 to-slate-500/0;
+        bg-linear-to-r from-slate-500/0 via-slate-500 to-slate-500/0;
     }
       
     &:hover {
@@ -37,7 +38,7 @@ header {
       relative md:hidden
       w-12 h-12
       rounded-full
-      outline-none
+      outline-hidden
       
       duration-700
       hover:bg-slate-800
@@ -94,7 +95,7 @@ header {
       max-md:w-full max-md:h-screen
 
       max-md:translate-x-full
-      max-md:bg-gradient-to-br from-slate-400/90 to-slate-800/90
+      max-md:bg-linear-to-br from-slate-400/90 to-slate-800/90
       max-md:duration-700
       max-md:backdrop-blur-lg max-md:backdrop-brightness-75
 

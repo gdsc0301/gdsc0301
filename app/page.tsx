@@ -1,4 +1,4 @@
-import './page.scss';
+import './page.css';
 import FadingTitle from './components/FadingTitle';
 import About from './sections/About';
 import LiveProjects from './sections/LiveProjects';
@@ -8,12 +8,19 @@ import Contact from './sections/Contact';
 export default function Home() {
 
   return (
-    <main>
+    <main className='
+      relative
+      overflow-hidden
+      mx-auto 
+      pt-24 px-4
+      grid gap-12
+      container
+    '>
       <About />
-      <LiveProjects />
       <ProfessionalProjects />
+      <LiveProjects />
       <Contact />
-      <FadingTitle />
+      {/* <FadingTitle /> */}
     </main>
   )
 }

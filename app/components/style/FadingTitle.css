@@ -1,7 +1,9 @@
+@import "tailwindcss";
+
 .fading-title {
-  h1, h2 {
-    @apply
-      text-4xl lg:text-6xl 
+  h1,
+  h2 {
+    @apply text-4xl lg:text-6xl 
       text-center font-bold opacity-0;
 
     animation: fade-in 6s ease-in-out;

@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+main {
+  section {
+    h2 {
+      @apply mb-2
+        text-slate-400 text-7xl md:text-[92px] text-center
+        font-semibold;
+    }
+
+    @apply relative;
+
+    &#live-projects {
+      h2 {
+        @apply relative block mx-auto
+            max-md:mt-4 mb-4
+            w-fit
+            z-10;
+
+        span {
+          @apply absolute -top-6 -left-2
+              px-4 py-1
+              text-xl text-white
+              font-bold
+              z-[-1];
+
+          &::before {
+            content: "";
+            @apply inline-block
+                w-4 h-4 mr-2
+                rounded-full
+                bg-red-600
+                animate-pulse;
+          }
+        }
+      }
+    }
+
+    &#professional-projects {
+      h2 {
+        @apply relative block mx-auto
+            mb-10
+            w-fit
+            z-10;
+
+        span {
+          @apply absolute
+              -bottom-6 md:-bottom-5
+              -left-3 md:-left-2
+              px-4 py-1
+              text-lg md:text-xl text-white
+              font-light
+              z-[-1];
+
+          clip-path: polygon(16px 0, 100% 0, calc(100% - 16px) 100%, 0 100%);
+        }
+      }
+    }
+  }
+}

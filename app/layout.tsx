@@ -1,11 +1,12 @@
-import './globals.css'
+import './globals.css';
+
 import type { Metadata, Viewport } from 'next'
 import { Montserrat } from 'next/font/google'
 import { defaultMetadata } from './metadata'
 import { Analytics } from '@vercel/analytics/react'
+
 import Header from './components/Header'
 
-import 'swiper/swiper-bundle.css';
 const montserrat = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = defaultMetadata;
