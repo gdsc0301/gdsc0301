@@ -2,10 +2,6 @@
 import '../components/style/sections/About.scss';
 import Image from 'next/image';
 
-import 'swiper/scss';
-import 'swiper/scss/effect-cards';
-import 'swiper/scss/autoplay';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectCards } from 'swiper/modules';
 
@@ -36,7 +32,7 @@ const About = () => {
               <Icon type='solid' name='gamepad' className='mr-1' />Game Development</strong>.
           </p>
           <p>
-            My primary skills are <strong><Icon name='docker'/> Docker</strong>, <strong><Icon name='php'/> PHP</strong>, <strong><Icon name='wordpress'/> WordPress</strong> and <strong><Icon name='react'/> React.js + Next/Vite</strong>.
+            My primary skills are <strong><Icon name='docker' /> Docker</strong>, <strong><Icon name='php' /> PHP</strong>, <strong><Icon name='wordpress' /> WordPress</strong> and <strong><Icon name='react' /> React.js + Next/Vite</strong>.
           </p>
           <p>
             But I also have a lot of experience with <strong>Vanilla JavaScript,  GitHub CI/CD, Self-Hosting, Go, Node.js, TailwindCSS, SASS, WebPack</strong>, and even <strong>iOS/Android App Development</strong>.
@@ -48,7 +44,7 @@ const About = () => {
           effect={'cards'}
           grabCursor={true}
           slidesPerView={1}
-          autoplay={{delay: 2000, pauseOnMouseEnter: true, disableOnInteraction: true}}
+          autoplay={{ delay: 2000, pauseOnMouseEnter: true, disableOnInteraction: true }}
           cardsEffect={{
             rotate: true,
             slideShadows: true,

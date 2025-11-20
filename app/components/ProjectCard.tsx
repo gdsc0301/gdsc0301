@@ -11,12 +11,12 @@ const ProjectCard = ({ title, description, link, image, video, parentSelector }:
     <Atropos eventsEl={parentSelector} commonOrigin={true} rotateXInvert={true}>
       <div className="project-card">
         {video && <iframe
-                    width='345'
-                    height='460'
-                    data-atropos-offset="-10"
-                    allow='autoplay; encrypted-media; picture-in-picture; playsinline; loop;'
-                    src={`${video}?autoplay=1&loop=1&playsinline=1&controls=0&iv_load_policy=3&disablekb=1&fs=0`}>
-                  </iframe>
+          width='345'
+          height='460'
+          data-atropos-offset="-10"
+          allow='autoplay; encrypted-media; picture-in-picture; playsinline; loop;'
+          src={`${video}?autoplay=1&loop=1&playsinline=1&controls=0&iv_load_policy=3&disablekb=1&fs=0`}>
+        </iframe>
         }
         {image && <img src={image} alt={title} />}
         <div className="info" data-atropos-offset="3">

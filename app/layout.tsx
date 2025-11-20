@@ -1,0 +1,30 @@
+import './globals.css'
+import type { Metadata, Viewport } from 'next'
+import { Montserrat } from 'next/font/google'
+import { defaultMetadata } from './metadata'
+import { Analytics } from '@vercel/analytics/react'
+import Header from './components/Header'
+
+import 'swiper/swiper-bundle.css';
+const montserrat = Montserrat({ subsets: ['latin'] })
+
+export const metadata: Metadata = defaultMetadata;
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  minimumScale: 1,
+  maximumScale: 5,
+  userScalable: false
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en" className='scroll-smooth'>
+      <body className={montserrat.className + ' antialiased'}>
+        <Header />
+        {children}
+      </body>
+      <Analytics />
+    </html>
+  )
+}

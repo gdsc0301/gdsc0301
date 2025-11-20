@@ -1,10 +1,4 @@
-main {
-  @apply
-    p-12 md:p-24
-    flex flex-col gap-6
-    items-center justify-center
-    h-[100dvh];
-
+.fading-title {
   h1, h2 {
     @apply
       text-4xl lg:text-6xl 
