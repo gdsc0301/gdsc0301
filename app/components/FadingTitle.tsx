@@ -5,7 +5,7 @@ export default function FadingTitle() {
   const [hidden, setHidden] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setHidden(true), 6000);
+    setTimeout(() => setHidden(true), 4000);
   }, []);
 
   return (

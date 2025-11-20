@@ -11,7 +11,7 @@ export default function Home() {
     <main className='
       relative
       mx-auto 
-      pt-24 px-4
+      py-24 px-4
       grid gap-12
       container
     '>

@@ -28,7 +28,7 @@ export default function Header() {
             <a className="nav-link" href="#professional-projects">Professional</a>
           </div>
         </div>
-        <a className="nav-link" href="#professinal-projects" onClick={closeMenu}>Contact</a>
+        <a className="nav-link" href="#contact" onClick={closeMenu}>Contact</a>
       </nav>
     </header>
   )
