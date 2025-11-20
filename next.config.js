@@ -4,11 +4,15 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 's3.guibr.com'
+        hostname: 's3.guibr.com',
+        port: '',
+        pathname: '/**'
       },
       {
         protocol: 'http',
-        hostname: 's3.guibr.com'
+        hostname: 's3.guibr.com',
+        port: '',
+        pathname: '/**'
       }
     ]
   }
