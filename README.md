@@ -1,6 +1,6 @@
 <p align="center"><a align="center" href="https://app.daily.dev/guilhermecarvalho"><img src="https://api.daily.dev/devcards/v2/hJK2Ipbc7UawNEQtmyC1Z.png?r=fzj&type=wide" width="652" alt="Guilherme Carvalho's Dev Card"/></a></p>
-<h1 align="center">Hi 👋 I'm Guilherme ~it's weird to say, I know</h1>
-<h2 align="center"><a href="https://guilherme-carvalho-portfolio.vercel.app" target="_blank">Access my Portfolio Website clicking here.</a></h2>
+<h1 align="center">Hi 👋 I'm Guilherme ~you can say Gui</h1>
+<h2 align="center"><a href="https://posrtfolio.guibr.com" target="_blank">Access my Portfolio Website clicking here.</a></h2>
 <br/>
 
 - 🌱 I’m currently learning **Swift, iOS Development, Business.**
@@ -17,7 +17,6 @@
 <p align="left">
 <a href="https://codepen.io/guilherme-c" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="guilherme-c" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/guilherme-c" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="guilherme-c" height="30" width="40" /></a>
-<a href="https://instagram.com/gdsc0301" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="gdsc0301" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
